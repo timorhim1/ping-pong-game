@@ -1,0 +1,100 @@
+.menuItem {
+    display:block;
+    margin:auto;
+    text-align: center;
+    border: 2px white solid;
+    border-radius: 3em;
+    width: 60%;
+    color: whitesmoke;
+    background: linear-gradient(black,#2a454a);
+    margin-top: 6%;
+    padding: 40px;
+}
+
+.container{
+    background-image: url("../img/pongpi.png");
+}
+
+#divGame{
+    display:block;
+    margin:auto;
+}
+
+.centerDiv {
+    display: inline-grid;
+    text-align: center;
+}
+.centerDiv1 {
+    display: inline-grid;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#accueil{
+    margin-top: 15%;
+}
+
+  
+.buttonClass{
+    width: 220px;
+    margin: 6px;
+    height: 35px;
+    border-radius: 2em;
+    background: linear-gradient(#939393,#96b0b8);
+    border : lightskyblue;
+    font-family: monospace;
+    font-weight: bold;
+}
+.buttonStart{
+    width: 220px;
+    height: 35px;
+    border-radius: 2em;
+    background: linear-gradient(#939393,#96b0b8);
+    border : lightskyblue;
+    font-family: monospace;
+    font-weight: bold;
+    margin: auto;
+}
+
+.buttonClass:hover:enabled{
+    background-color:grey;
+    color : white;
+}
+
+  
+#joinGame{
+    margin-top: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'monospace';
+    font-size: 15px;
+    /* background: linear-gradient(lightskyblue,lightblue); **/
+    color:black;
+
+}
+
+input {
+    width : 300px;
+    height: 35px;
+    border-radius: 2em;
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+}
+
+canvas {
+    bottom :0;
+    right: 0;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.join{
+    text-align: start;
+    margin-left: 15%;
+}
